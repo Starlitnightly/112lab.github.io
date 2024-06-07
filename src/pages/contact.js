@@ -31,36 +31,32 @@ const ContactPage = ({ data: { site } }) => {
           <h1 className="post-title">Contact us</h1>
           <div className="primary-content">
             If you are interested to join the lab, collaborate, or inquire,
-            please do not hesitate to send Titipat an email (titipat.ach [AT]
-            mahidol [DOT] edu) or using the form in this page &rarr;
+            please do not hesitate to send Hongwu Du an email (hongwudu [AT]
+            ustb [DOT] edu [DOT] cn) or using the form in this page &rarr;
           </div>
           <div className="primary-content">
             <b>Undergraduate students: </b>
             To discuss potential research projects or ideas, feel free to reach
-            out to Titipat and arrange a brief meeting.
+            out to hongwudu and arrange a brief meeting.
           </div>
           <div className="primary-content">
             <b>Graduate students: </b>
             Prospective students interested in pursuing a Masters or PhD program
-            in Biomedical Engineering at Mahidol University can submit a CV
-            along with a brief statement of their research interests before
-            applying. Additionally, they can arrange a discussion with Titipat
-            in advance. Titipat is also available for co-advising in various
-            departments outside Mahidol University, such as the Department of
-            Computer Engineering at Mahidol University, Vidyasirimedhi Institute
-            of Science and Technology (VISTEC), or Chulalongkorn University,
-            Thailand, providing multiple options for interested students.
+            in Biomedical Engineering at University of Science and Technology Beijing
+            can submit a CV along with a brief statement of their research interests before
+            applying. Additionally, they can arrange a discussion with Hongwu
+            in advance. 
           </div>
           <div className="primary-content">
             <b>Other positions: </b>The lab is always actively looking for
             interns, researchers, and developers. If you are interested in doing
             these position (locally or remotely), please also do not hesitate to
-            email Titipat to discuss.
+            email Hongwu to discuss.
           </div>
           <div className="primary-content">
             <b>Office: </b>
-            Mahidol University, Engineering Building 3, 3rd Floor 999
-            Phutthamonthon 4 Road, Salaya, Nakhon Pathom, Thailand 73170
+            112 Lab, Lihua BLDG, No.30 Xueyuan Road, Haidian District, 
+            Beijing 100083 China. Prof. Hongwu Du,
           </div>
         </div>
         <div>
@@ -115,7 +111,7 @@ const ContactPage = ({ data: { site } }) => {
           >
             {submitted ? (
               <p style={{ margin: 0, lineHeight: "1.5em" }}>
-                Your message has successfully been sent to Titipat! It generally
+                Your message has successfully been sent to Hongwu! It generally
                 takes one to two days for him to reply.
               </p>
             ) : (

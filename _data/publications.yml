@@ -1,88 +1,51 @@
-- title: "Science Concierge: A fast content-based recommendation system for scientific publications"
-  authors: T Achakulvisut, DE Acuna, T Ruangrong, K Kording
-  journal: PloS one 11 (7), e0158423
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0158423
-  year: 2016
-- title: "Intellectual synthesis in mentorship determines success in academic careers"
-  authors: JF Liénard, T Achakulvisut, DE Acuna, SV David
-  journal: Nature communications 9 (1), 1-13
-  url: https://www.nature.com/articles/s41467-018-07034-y
-  year: 2018
-- title: "DeepCut: A Thai word tokenization library using Deep Neural Network"
-  authors: R Kittinaradorn, T Achakulvisut, K Chaovavanich, K Srithaworn, P Chormai, C Kaewkasi, T Ruangrong, K Oparad
-  journal: ""
-  url: https://github.com/rkcosmos/deepcut
-  year: 2019
-- title: "Claim extraction in biomedical publications using deep discourse model and transfer learning"
-  authors: T Achakulvisut, C Bhagavatula, D Acuna, K Kording
-  journal: arXiv preprint arXiv:1907.00962
-  url: https://arxiv.org/pdf/1907.00962.pdf
-  year: 2019
-- title: "Point of view: Improving on legacy conferences by moving online"
-  authors: Titipat Achakulvisut, Tulakan Ruangrong, Isil Bilgin, Sofie Van Den Bossche, Brad Wyble, Dan FM Goodman, Konrad P Kording
-  journal: Elife 9, e57892
-  url: https://elifesciences.org/articles/57892
-  year: 2020
-  pdf: /assets/publications/titipat-elife-2020.pdf
-- title: "Pyglmnet: Python implementation of elastic-net regularized generalized linear models"
-  authors: M Jas, T Achakulvisut, A Idrizović, D Acuna, M Antalek, V Marques, ...
-  journal: Journal of Open Source Software 5 (47)
-  url: https://biblio.ugent.be/publication/8650816/file/8650817
-  year: 2020
-- title: "neuromatch: Algorithms to match scientists"
-  authors: T Achakulvisut, T Ruangrong, DE Acuna, B Wyble, D Goodman, K Kording
-  journal: eLife
-  url: https://elifesciences.org/labs/5ed408f4/neuromatch-algorithms-to-match-scientists
-  year: 2020
-- title: "Pubmed parser: a Python parser for PubMed Open-Access XML subset and MEDLINE XML dataset XML dataset"
-  authors: T Achakulvisut, DE Acuna, K Kording
-  journal: Journal of Open Source Software 5 (46), 1979
-  url: https://joss.theoj.org/papers/10.21105/joss.01979.pdf
-  year: 2020
-- title: "Neuromatch Academy: Teaching Computational Neuroscience with global accessibility"
-  authors: T van Viegen, A Akrami, K Bonnen, E DeWitt, A Hyafil, H Ledmyr, ...
-  journal: Trends in Cognitive Sciences
-  url: https://www.sciencedirect.com/science/article/abs/pii/S1364661321000954?dgcid=author
-  year: 2020
-- title: "Towards Democratizing and Automating Online Conferences: Lessons from the Neuromatch Conferences"
-  authors: T Achakulvisut, T Ruangrong, P Mineault, TP Vogels, MAK Peters, ...
-  journal: Trends in Cognitive Sciences
-  url: https://www.sciencedirect.com/science/article/abs/pii/S1364661321000097
-  year: 2021
-  pdf: /assets/publications/titipat-tics-2021.pdf
-- title: "AI Builders: Teaching Thai Students to BuildEnd-to-End Machine Learning Projects Online"
-  authors: C Polpanumas, P Limkonchotiwat, B Matupumanon, C Chaksangchaichot, N Chumlek, N Phaphoom, P Siwatammarat, P Laohapiengsak, S Amornpornwiwat, W Daroontham1, E Chuangsuwanich, K Kulruchakorn, SNutanong, T Achakulvisut
-  journal: 2021 IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE)
-  year: 2021
-  url: https://ieeexplore.ieee.org/document/9678620
-  pdf: /assets/publications/aibuilders-tale2021.pdf
-- title: "Multitask learning via pseudo-label generation and ensemble prediction for parasitic egg cell detection: IEEE ICIP Challenge 2022"
-  authors: Aung ZH, Srithaworn K, Achakulvisut T
-  journal: IEEE International Conference on Image Processing (ICIP)
-  year: 2022
-  url: https://ieeexplore.ieee.org/abstract/document/9897464
-  pdf: /assets/publications/parasitic-detection-ieeeicip2022.pdf
-  github: https://github.com/biodatlab/icip-challenge-2022
-- title: "Machine Learning Assisted Real-Time PCR and High-Resolutation Melt (qPCR-HRM) Analysis for SARS-CoV-2 Variant Identification"
-  authors: S Promja, J Puenpa, T Achakulvisut, Y Poovorawan, Y Su, P Athamanolap, B Lertanatawong
-  journal: Analytical Chemistry
-  year: 2023
-  url: https://pubs.acs.org/doi/full/10.1021/acs.analchem.2c05112
-- title: "Deep Learning-Based Object Detection And Bacteria Morphological Feature Extraction For Antibiotic Mode Of Action Study"
-  authors: K Chotayapa, T Leethamchayo, P Chinnawong, T Samernate, P Nonejuie, T Achakulvisut
-  journal: 2023 15th Biomedical Engineering International Conference (BMEiCON)
-  year: 2023
-  url: https://ieeexplore.ieee.org/document/10322010
-  pdf: /assets/publications/bacteria-det-bmeicon2023.pdf
-  github: https://github.com/biodatlab/bacteria-detection
-- title: Combined Channel and Spatial Attention-Based Stereo Endoscopic Image Super-Resolution
-  authors: M Hayat, S Aramvith, T Achakulvisut
-  journal: TENCON 2023 - 2023 IEEE Region 10 Conference (TENCON)
-  year: 2023
-  url: https://ieeexplore.ieee.org/document/10322331
-- title: Myocardial scar and left ventricular ejection fraction classification for electrocardiography image using multi-task deep learning
-  authors: A Boribalburephan, S Treewaree, N Tantisiriwat, A Yindeengam, T Achakulvisut, R Krittayaphong
-  journal: Scientific Reports
+- title: A Network Pharmacology-based Study on the Anti-aging Properties of Traditional Chinese Medicine Sisheng Bulao Elixir
+  authors: C Xing, Z Zeng, Y Shan, W Guo, R Shah, L Wang, Y Wang, H Du
+  journal: Combinatorial Chemistry & High Throughput Screening
   year: 2024
-  url: https://www.nature.com/articles/s41598-024-58131-6
-  github: https://github.com/biodatlab/multitask-vision-ecg/
+  url: https://www.ingentaconnect.com/content/ben/cchts/2024/00000027/00000012/art00012
+  github: https://github.com/Starlitnightly/Analysis_sisheng
+- title: Double Bionic Deformable DNA Hydrogel Microneedles Loaded with Extracellular Vesicles to Guide Tissue Regeneration of Diabetes Ulcer Wound
+  authors: L Zhou, Z Zeng, J Liu, F Zhang, X Bian, Z Luo, H Du, P Zhang, Y Wen
+  journal: Advanced Functional Materials
+  year: 2024
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/adfm.202312499
+- title: Challenges of mesenchymal stem cells in the clinical treatment of COVID-19
+  authors: L Li, X Zhang, Y Wu, C Xing, H Du
+  journal: Cell and Tissue Research
+  year: 2024
+  url: https://pubmed.ncbi.nlm.nih.gov/38512548/
+- title: A cancer cell and lysosome dual-targeted photosensitizer for fluorescence imaging and photodynamic therapy
+  authors: C Su, P Xing, J Zhang, X Ma, X Wu, M Zhu, X Zhang, H Du, Y Bian
+  journal: Dyes and Pigments
+  year: 2024
+  url: https://www.sciencedirect.com/science/article/pii/S0143720823007878
+- title: Stem cells from human exfoliated deciduous teeth rejuvenate the liver in naturally aged mice by improving ribosomal and mitochondrial proteins
+  authors: C Xing, Z Hang, W Guo, Y Li, R Shah, Y Zhao, Z Zeng, H Du
+  journal: Cytotherapy
+  year: 2023
+  url: https://pubmed.ncbi.nlm.nih.gov/37815776/
+- title: Advances in microfluidic chips targeting toxic aggregation proteins for neurodegenerative diseases
+  authors: L Li, T Lei, C Xing, H Du
+  journal: International Journal of Biological Macromolecules
+  year: 2023
+  url: https://pubmed.ncbi.nlm.nih.gov/37992921/
+- title: The Blood-brain Barrier, a Key Bridge to Treat Neurodegenerative Diseases
+  authors: Z Hang, L Zhou, C Xing, Y Wen, H Du
+  journal: Ageing Research Reviews
+  year: 2023
+  url: https://pubmed.ncbi.nlm.nih.gov/37704051/
+- title: Advances in mesenchymal stromal cells and nanomaterials for diabetic wound healing
+  authors: L Hou, X Zhang, H Du
+  journal: Diabetes/Metabolism Research and Reviews
+  year: 2023
+  url: https://pubmed.ncbi.nlm.nih.gov/36959689/
+- title: Potential application of heat shock proteins as therapeutic targets in Parkinson's disease
+  authors: H Guo, J Yi, F Wang, T Lei, H Du
+  journal: Neurochemistry International
+  year: 2023
+  url: https://pubmed.ncbi.nlm.nih.gov/36402293/
+- title: Induction of autophagy via the PI3K/Akt/mTOR signaling pathway by Pueraria flavonoids improves non-alcoholic fatty liver disease in obese mice
+  authors: C Sun, J Zhang, J Hou, M Hui, H Qi, T Lei, X Zhang, L Zhao, H Du
+  journal: Biomedicine & Pharmacotherapy
+  year: 2023
+  url: https://pubmed.ncbi.nlm.nih.gov/36384052/

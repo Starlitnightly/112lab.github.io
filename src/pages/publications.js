@@ -21,8 +21,8 @@ const PublicationPage = ({
       <h1>Publications</h1>
       <div className="primary-content">
         Please see{" "}
-        <a href="https://scholar.google.com/citations?user=L56sgUQAAAAJ">
-          Titipat's Google scholar
+        <a href="https://scholar.google.com/citations?user=fpYzuVwAAAAJ">
+          Hongwu Du's Google scholar
         </a>{" "}
         for up-to-date publications or list of publications or below. If you do
         not have access to any publication, please email.

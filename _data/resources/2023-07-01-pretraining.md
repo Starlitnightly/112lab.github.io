@@ -1,36 +1,16 @@
 ---
 template: BlogPost
 path: /resources/joining-the-lab
-date: 2021-10-01T07:08:53.137Z
+date: 2023-07-01T07:08:53.137Z
 title: Resources for incoming members
 thumbnail: ""
 metaDescription: Some resources before joining the lab
 ---
 
-Joining the lab might be overwhelming since we work on a broad range of applied machine learning
-and natural language processing. As most of incoming students may come from biomedical background,
-learning some tools as you join the lab will be very useful later on. I listed some of the useful
-tools below:
+Joining the lab might be overwhelming since we work on a broad range of applied molecular biology
+and bioinformatics. As most of incoming students may come from biomedical background, learning some
+tools as you join the lab will be very useful later on. I listed some of the useful tools below:
 
-## Shell Script
-
-Many times, we need it to run our scripts, move files, check files in directories, or updating packages.
-Understand shell scripts are very useful here. There are a lot of resources online where you can
-find tutorials on shell scripts (Bash, Zsh, ...). I list some of them below.
-
-- [devhints.io/bash](https://devhints.io/bash)
-- [bluebirz.net tutorial on Bash](https://www.bluebirz.net/1580/lets-play-bash-script/)
-
-## Version control
-
-We generally use `git` as our version control and store many repositories on GitHub.
-Here, familiarize yourself with Git will help a lot in your code development.
-
-- [มาเริ่มใช้ Git กัน [part 1]](https://tupleblog.github.io/use-git-part1/) in Thai
-- Linkedin Git Essential Training: The Basics
-
-There are many more tutorials today. Make sure you know all the basic git terms such as add,
-pull, fetch, merge, pull request.
 
 ## Python
 
