@@ -70,15 +70,15 @@ const PeoplePage = ({
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {People_teacher}
       </div>
-      <h1>PHD</h1>
+      <h1>PHD student</h1>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {People_phd}
       </div>
-      <h1>MD</h1>
+      <h1>MD student</h1>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {People_md}
       </div>
-      <h1>BD</h1>
+      <h1>Undergraduate</h1>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {People_bd}
       </div>
