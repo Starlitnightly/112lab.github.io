@@ -5,6 +5,7 @@ date: 2020-01-01T06:15:50.738Z
 title: Lei Hu
 thumbnail: /assets/people/leihu.jpg
 position: alumni
+endYear: 2022
 metaDescription: Investigator
 order: 0
 ---
