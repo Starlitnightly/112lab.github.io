@@ -11,10 +11,10 @@
     "collaborators": "We collaborate with multiple researchers, institutes, conferences, and organizations from outside and in China. This includes Peking University Third Hospital, Institute of Process Engineering, Chinese Academy of Sciences, Chinese Academy of Military Sciences, Capital Medical University, Tsinghua University, and many more.",
     "funder-logos": {
       "light": [
-        "/assets/logos/nsfc-light.png"
+        "/assets/logos/nsfc-logo-light.png"
       ],
       "dark": [
-        "/assets/logos/nsfc-dark.png"
+        "/assets/logos/nsfc-logo-dark.png"
       ]
     },
     "research": {

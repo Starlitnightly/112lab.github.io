@@ -9,11 +9,43 @@ const PeoplePage = ({
     allMarkdownRemark: { edges },
   },
 }) => {
-  const currentPeople = edges
+  const People_teacher = edges
     .filter(
       (edge) =>
         !!edge.node.frontmatter.date &&
-        edge.node.frontmatter.position !== "alumni",
+        edge.node.frontmatter.position === "teacher",
+    )
+    .map((edge) => <PeopleLink key={edge.node.id} data={edge.node} />);
+
+  const People_phd = edges
+    .filter(
+      (edge) =>
+        !!edge.node.frontmatter.date &&
+        edge.node.frontmatter.position === "phd",
+    )
+    .map((edge) => <PeopleLink key={edge.node.id} data={edge.node} />);
+
+  const People_md = edges
+    .filter(
+      (edge) =>
+        !!edge.node.frontmatter.date &&
+        edge.node.frontmatter.position === "md",
+    )
+    .map((edge) => <PeopleLink key={edge.node.id} data={edge.node} />);
+  
+  const People_bd = edges
+    .filter(
+      (edge) =>
+        !!edge.node.frontmatter.date &&
+        edge.node.frontmatter.position === "bd",
+    )
+    .map((edge) => <PeopleLink key={edge.node.id} data={edge.node} />);
+
+  const People_pi = edges
+    .filter(
+      (edge) =>
+        !!edge.node.frontmatter.date &&
+        edge.node.frontmatter.position === "pi",
     )
     .map((edge) => <PeopleLink key={edge.node.id} data={edge.node} />);
 
@@ -30,11 +62,27 @@ const PeoplePage = ({
   return (
     <Layout>
       <HelmetWrapper title="People" />
-      <h1>People</h1>
+      <h1>PI</h1>
       <div className="grids small" style={{ marginBottom: "32px" }}>
-        {currentPeople}
+        {People_pi}
       </div>
-      <h2>Previous lab members</h2>
+      <h1>Teacher</h1>
+      <div className="grids small" style={{ marginBottom: "32px" }}>
+        {People_teacher}
+      </div>
+      <h1>PHD</h1>
+      <div className="grids small" style={{ marginBottom: "32px" }}>
+        {People_phd}
+      </div>
+      <h1>MD</h1>
+      <div className="grids small" style={{ marginBottom: "32px" }}>
+        {People_md}
+      </div>
+      <h1>BD</h1>
+      <div className="grids small" style={{ marginBottom: "32px" }}>
+        {People_bd}
+      </div>
+      <h1>Previous lab members</h1>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {prevPeople}
       </div>
