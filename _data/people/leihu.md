@@ -6,7 +6,7 @@ title: Lei Hu
 thumbnail: /assets/people/leihu.jpg
 position: alumni
 endYear: 2022
-metaDescription: Investigator
+metaDescription: Student
 order: 0
 ---
 

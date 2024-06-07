@@ -2,10 +2,10 @@
 template: BlogPost
 path: /people/roshan
 date: 2020-01-01T06:15:50.738Z
-title: Roshan Hahh
+title: Roshan Shah
 thumbnail: /assets/people/roshan.jpg
 position: md
-metaDescription: Investigator
+metaDescription: Student
 order: 0
 ---
 

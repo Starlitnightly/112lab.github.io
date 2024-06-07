@@ -5,7 +5,7 @@ date: 2020-01-01T06:15:50.738Z
 title: Zehua Zeng
 thumbnail: /assets/people/zehuazeng.jpeg
 position: phd
-metaDescription: Investigator
+metaDescription: Student
 order: 0
 ---
 
