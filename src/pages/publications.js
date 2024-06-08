@@ -29,7 +29,7 @@ const PublicationPage = ({
 
   return (
     <Layout>
-      <HelmetWrapper title="Publications" />
+      <HelmetWrapper title="Publications and Preprints" />
       <h1>Publications</h1>
       <div className="primary-content">
         Please see{" "}
@@ -46,7 +46,6 @@ const PublicationPage = ({
   );
 };
 
-
 export default PublicationPage;
 export const pageQuery = graphql`
   query publicationPageQuery {
@@ -54,6 +53,8 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         description
+        siteUrl
+        ogImage
       }
     }
     allPublicationsYaml(sort: { order: DESC, fields: [year] }) {
