@@ -7,12 +7,20 @@ import HelmetWrapper from "../components/helmetWrapper";
 const PublicationPage = ({
   data: {
     allPublicationsYaml: { edges },
+    allPreprintsYaml: { edges: preprintEdges }
   },
 }) => {
   const Publication = edges
     .filter(edge => !!edge.node.title)
     .map(edge => (
       <PublicationLink key={edge.node.id} publication={edge.node} />
+    ));
+  const Preprints = preprintEdges
+    .map(({ node }) => (
+      <PublicationLink 
+        key={node.url} 
+        publication={node} 
+      />
     ));
 
   return (
@@ -28,6 +36,8 @@ const PublicationPage = ({
         not have access to any publication, please email.
       </div>
       <div className="primary-content">{Publication}</div>
+      <h1>Preprint</h1>
+      <div className="primary-content">{Preprints}</div>
     </Layout>
   );
 };
@@ -51,6 +61,18 @@ export const pageQuery = graphql`
           year
           url
           pdf
+          github
+        }
+      }
+    }
+    allPreprintsYaml {
+      edges {
+        node {
+          title
+          authors
+          preprint
+          year
+          url
           github
         }
       }
