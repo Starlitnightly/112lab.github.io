@@ -6,15 +6,19 @@ import HelmetWrapper from "../components/helmetWrapper";
 
 const PublicationPage = ({
   data: {
-    allPublicationsYaml: { edges },
+    allPublicationsYaml: { edges: publicationEdges },
     allPreprintsYaml: { edges: preprintEdges }
   },
 }) => {
-  const Publication = edges
+  const Publications = publicationEdges
     .filter(edge => !!edge.node.title)
     .map(edge => (
-      <PublicationLink key={edge.node.id} publication={edge.node} />
+      <PublicationLink 
+        key={edge.node.id} 
+        publication={edge.node} 
+      />
     ));
+
   const Preprints = preprintEdges
     .map(({ node }) => (
       <PublicationLink 
@@ -35,12 +39,13 @@ const PublicationPage = ({
         for up-to-date publications or list of publications or below. If you do
         not have access to any publication, please email.
       </div>
-      <div className="primary-content">{Publication}</div>
+      <div className="primary-content">{Publications}</div>
       <h1>Preprint</h1>
       <div className="primary-content">{Preprints}</div>
     </Layout>
   );
 };
+
 
 export default PublicationPage;
 export const pageQuery = graphql`
