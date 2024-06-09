@@ -58,8 +58,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Data & Bio Lab, Mahidol University`,
-        short_name: `DBL`,
+        name: `112 Lab, USTB`,
+        short_name: `112`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#8efbf7`,
