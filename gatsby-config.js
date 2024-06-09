@@ -62,7 +62,7 @@ module.exports = {
         short_name: `DBL`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#381696`,
+        theme_color: `#8efbf7`,
         display: `standalone`,
         icon: "src/images/icon.png"
       }
