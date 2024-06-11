@@ -5,7 +5,7 @@ date: 2020-01-01T06:15:50.738Z
 title: Cencan Xing
 thumbnail: /assets/people/cencanxing.jpg
 position: teacher
-metaDescription: Lecturer
+metaDescription: Ph.D. Research Scientist
 order: 1
 ---
 

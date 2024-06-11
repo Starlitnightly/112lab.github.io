@@ -5,7 +5,7 @@ date: 2020-01-01T06:15:50.738Z
 title: Yuxin Mi
 thumbnail: /assets/people/yuxinmi.png
 position: teacher
-metaDescription: Associate Professor
+metaDescription: Ph.D. Associate Professor
 order: 2
 ---
 

@@ -66,7 +66,7 @@ const PeoplePage = ({
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {People_pi}
       </div>
-      <h1>Teacher</h1>
+      <h1>Team</h1>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {People_teacher}
       </div>
@@ -74,7 +74,7 @@ const PeoplePage = ({
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {People_phd}
       </div>
-      <h1>MD student</h1>
+      <h1>Master student</h1>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {People_md}
       </div>

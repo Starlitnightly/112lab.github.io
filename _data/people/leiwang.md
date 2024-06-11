@@ -5,7 +5,7 @@ date: 2020-01-01T06:15:50.738Z
 title: Lei Wang
 thumbnail: /assets/people/leiwang.jpg
 position: teacher
-metaDescription: Professor
+metaDescription: Ph.D. Professor
 order: 0
 ---
 

@@ -5,7 +5,7 @@ date: 2020-01-01T06:15:50.738Z
 title: Hongwu Du
 thumbnail: /assets/people/hongwudu.jpg
 position: pi
-metaDescription: Principal investigator
+metaDescription: Ph.D. Principal investigator
 order: 0
 ---
 

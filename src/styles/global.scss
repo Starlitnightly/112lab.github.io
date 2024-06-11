@@ -10,11 +10,11 @@ body {
   margin-top: 0;
 }
 body.light {
-  --primary-color: #381696;
+  --primary-color: #014847;
   --primary-text-color: #fff;
-  --featured-bg: #493b8a;
+  --featured-bg: #05bdba;
   --featured-text: #fff;
-  --secondary-color: #10072b;
+  --secondary-color: #0c2a2a;
   --background: #fff;
   --site-header: var(--background);
   --card-bg: #fff;
@@ -30,11 +30,11 @@ body.light {
   --input-bg: var(--background);
 }
 body.dark {
-  --primary-color: #9984d5;
+  --primary-color: #8efbf7;
   --primary-text-color: #fff;
-  --featured-bg: #66578d;
+  --featured-bg: #05bdba;
   --featured-text: #fff;
-  --secondary-color: #66578d;
+  --secondary-color: #05bdba;
   --background: #0a041a;
   --text-color: rgba(255, 255, 255, 0.88);
   --text-secondary-color: rgba(255, 255, 255, 0.66);
