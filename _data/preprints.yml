@@ -1,13 +1,7 @@
-- title: OmicVerse A single pipeline for exploring the entire transcriptome universe
-  authors: Z Zeng, Y Ma, L Hu, P Liu, B Tan, Y Wang, C Xing, Y Xiong, H Du
-  preprint: Biorxiv
-  year: 2023
-  url: https://www.biorxiv.org/content/10.1101/2023.06.06.543913v2
-  github: https://github.com/Starlitnightly/omicverse
-  pdf: https://www.biorxiv.org/content/10.1101/2023.06.06.543913v2.full.pdf
 - title: Revolutionizing single cell analysis The power of large language models for cell type annotation
   authors: Z Zeng, H Du
   preprint: arXiv
   year: 2023
   url: https://arxiv.org/abs/2304.02697
+  github: https://github.com/Starlitnightly/omicverse
   pdf: https://arxiv.org/pdf/2304.02697

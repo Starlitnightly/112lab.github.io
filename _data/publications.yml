@@ -1,3 +1,9 @@
+- title: OmicVerse: a framework for bridging and deepening insights across bulk and single-cell sequencing
+  authors: Z Zeng, Y Ma, L Hu, B Tan, P Liu, Y Wang, C Xing, Y Xiong, H Du
+  journal: Nature Communications
+  year: 2024
+  url: https://www.nature.com/articles/s41467-024-50194-3
+  github: https://github.com/Starlitnightly/omicverse
 - title: A Network Pharmacology-based Study on the Anti-aging Properties of Traditional Chinese Medicine Sisheng Bulao Elixir
   authors: C Xing, Z Zeng, Y Shan, W Guo, R Shah, L Wang, Y Wang, H Du
   journal: Combinatorial Chemistry & High Throughput Screening
