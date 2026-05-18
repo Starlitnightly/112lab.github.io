@@ -2,10 +2,10 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 
 const PublicationLink = ({ publication }) => {
-  const secondLineInfo = publication.journal
+  const secondLineInfo = publication.journal || publication.preprint
     ? publication.year
-      ? `${publication.journal}, ${publication.year}`
-      : publication.journal
+      ? `${publication.journal || publication.preprint}, ${publication.year}`
+      : publication.journal || publication.preprint
     : publication.year;
 
   const secondLinePdf = publication.pdf ? (
@@ -17,7 +17,7 @@ const PublicationLink = ({ publication }) => {
     </>
   ) : null;
 
-  const secondLineGitHub = publication?.github ? (
+  const secondLineGitHub = publication.github ? (
     <>
       &nbsp;&#183;&nbsp;
       <a href={publication.github} target="_blank" rel="noopener noreferrer">
