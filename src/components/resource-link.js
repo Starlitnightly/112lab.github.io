@@ -1,10 +1,11 @@
 import React from "react";
+import { assetUrl } from "../utils/prefix";
 
 const ResourceLink = ({ resource }) => (
   <article className="card ">
     {/* <Link to={post.frontmatter.path}>
       {!!post.frontmatter.thumbnail && (
-        <img src={post.frontmatter.thumbnail} alt={post.frontmatter.title + "- Featured Shot"} />
+        <img src={assetUrl(post.frontmatter.thumbnail)} alt={post.frontmatter.title + "- Featured Shot"} />
       )}
     </Link> */}
     <header>

@@ -10,6 +10,9 @@ require("dotenv").config({
 });
 
 module.exports = {
+  // Only applied with `gatsby build --prefix-paths` (GitHub Pages project site).
+  // The Cloudflare Pages build for https://112lab.asia/ is unprefixed.
+  pathPrefix: "/112lab.github.io",
   /* Your site config here */
   siteMetadata: require("./site-meta-data.json"),
   plugins: [

@@ -1,4 +1,5 @@
 import React from "react";
+import { assetUrl } from "../utils/prefix";
 import { Link } from "gatsby";
 
 const PeopleLink = ({ data }) => (
@@ -7,7 +8,7 @@ const PeopleLink = ({ data }) => (
       {!!data.frontmatter.thumbnail && (
         <img
           className="people-avatar"
-          src={data.frontmatter.thumbnail}
+          src={assetUrl(data.frontmatter.thumbnail)}
           alt={data.frontmatter.title + "- Featured Shot"}
         />
       )}

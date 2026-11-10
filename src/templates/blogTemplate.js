@@ -1,4 +1,5 @@
 import React from "react";
+import { assetUrl, prefixHtml } from "../utils/prefix";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import HelmetWrapper from "../components/helmetWrapper";
@@ -28,7 +29,7 @@ export default function Template({
           {!!frontmatter.thumbnail && (
             <div
               className="post-thumbnail"
-              style={{ backgroundImage: `url(${frontmatter.thumbnail})` }}
+              style={{ backgroundImage: `url(${assetUrl(frontmatter.thumbnail)})` }}
             >
               <h1 className="post-title">{frontmatter.title}</h1>
               <div className="post-meta">{frontmatter.date}</div>
@@ -36,7 +37,7 @@ export default function Template({
           )}
           <div
             className="blog-post-content"
-            dangerouslySetInnerHTML={{ __html: html }}
+            dangerouslySetInnerHTML={{ __html: prefixHtml(html) }}
           />
         </article>
       </div>

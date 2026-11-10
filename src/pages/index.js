@@ -1,4 +1,5 @@
 import React from "react";
+import { assetUrl } from "../utils/prefix";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import HeroHeader from "../components/heroHeader";
@@ -16,13 +17,13 @@ const IndexPage = ({
 
   const ResearchImages = home.research[theme].map((imgPath) => (
     <div key={imgPath} className="image-container">
-      <img src={imgPath} alt={imgPath} />
+      <img src={assetUrl(imgPath)} alt={imgPath} />
     </div>
   ));
 
   const FunderLogos = home.funder_logos[theme].map((imgPath) => (
     <div key={imgPath} className="image-container funder">
-      <img src={imgPath} alt={imgPath} />
+      <img src={assetUrl(imgPath)} alt={imgPath} />
     </div>
   ));
 
