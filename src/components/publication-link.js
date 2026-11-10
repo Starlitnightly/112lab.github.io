@@ -1,4 +1,5 @@
 import React from "react";
+import { assetUrl } from "../utils/prefix";
 import { FaGithub } from "react-icons/fa";
 
 const PublicationLink = ({ publication }) => {
@@ -11,7 +12,7 @@ const PublicationLink = ({ publication }) => {
   const secondLinePdf = publication.pdf ? (
     <>
       &nbsp;&#183;&nbsp;
-      <a href={publication.pdf} target="_blank" rel="noopener noreferrer">
+      <a href={assetUrl(publication.pdf)} target="_blank" rel="noopener noreferrer">
         [PDF]
       </a>
     </>
