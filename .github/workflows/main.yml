@@ -103,38 +103,3 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy site-root --project-name=${{ env.CF_PAGES_PROJECT }} --branch=main --commit-dirty=true
-
-  deploy-netlify:
-    if: github.event_name != 'pull_request'
-    needs: build
-    runs-on: ubuntu-latest
-    env:
-      NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-      NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-    steps:
-      - name: Check Netlify credentials
-        id: nf
-        run: |
-          if [ -z "$NETLIFY_AUTH_TOKEN" ] || [ -z "$NETLIFY_SITE_ID" ]; then
-            echo "::warning::NETLIFY_AUTH_TOKEN / NETLIFY_SITE_ID not set; skipping Netlify deploy"
-            echo "enabled=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "enabled=true" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Download site
-        if: steps.nf.outputs.enabled == 'true'
-        uses: actions/download-artifact@v4
-        with:
-          name: site-root
-          path: site-root
-
-      - name: Use Node.js v20
-        if: steps.nf.outputs.enabled == 'true'
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20.x"
-
-      - name: Deploy to Netlify (112lab.netlify.app) 🚀
-        if: steps.nf.outputs.enabled == 'true'
-        run: npx --yes netlify-cli@17 deploy --prod --dir=site-root --site="$NETLIFY_SITE_ID" --message "GitHub Actions ${GITHUB_SHA::7}"
